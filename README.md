@@ -71,13 +71,10 @@ GROQ_API_KEY=your_api_key_here
 4. Run the App
 streamlit run app.py
 
-Open in browser:
-👉 [http://localhost:8501](http://localhost:8501)
+Open in browser at http://localhost:8501.
 ```
 ```
-````
-
-
+```
 ## 📝 Usage
 
 - Enter **1–3 news article URLs** in the sidebar  
