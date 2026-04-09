@@ -58,8 +58,8 @@ flowchart LR
 ## 🚀 Getting Started
 ```
 1. Clone the repository
-git clone https://github.com/yourusername/newsbot.git
-cd newsbot
+git clone https://github.com/yourusername/newssummarizer.git
+cd newssummarizer
 2. Install dependencies
 pip install -r requirements.txt
 3. Set up environment variables
@@ -123,4 +123,4 @@ Enable debug mode to verify which chunks are being used for answers.
 
 - HuggingFace Sentence Transformers
 
-#### You can access the website via **"https://newsbotapp.streamlit.app/"**
+#### You can access the website via **"https://news-summarizer-agent.streamlit.app/"**
