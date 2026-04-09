@@ -53,15 +53,56 @@ flowchart LR
 
 ---
 
-## 🚀 Getting Started###📝 Usage
+## 🚀 Getting Started
+
+
+###1. Clone Repository
+```bash
+git clone https://github.com/Kamal516857/News_Summarizer_Agent.git
+cd News_Summarizer_Agent
+````
+
+###2. Install Dependencies
 
 ```bash
+pip install -r requirements.txt
+```
 
-Enter 1–3 news article URLs in the sidebar
-Click "Process URLs" to load, split, and embed articles
-Ask any question in the main input box
-Get AI-generated answers with retrieved chunk previews
+###3. Setup Environment Variables
+
+Create a `.env` file:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
+4. Run the App
+
+```bash
+streamlit run app.py
+```
+
+Open in browser:
+👉 [http://localhost:8501](http://localhost:8501)
+
+````
+
 ---
+
+````
+
+
+---
+
+## 📝 Usage
+
+- Enter **1–3 news article URLs** in the sidebar  
+- Click **"Process URLs"** to load, split, and embed articles  
+- Ask any question in the main input box  
+- Get **AI-generated answers** with retrieved chunk previews  
+
+---
+
 ## 🛠️ Code Highlights
 
 ### 🔹 Vector Store Creation
@@ -71,14 +112,16 @@ vectorstore = FAISS.from_documents(docs, embeddings)
 
 with open("faiss_store.pkl", "wb") as f:
     pickle.dump(vectorstore, f)
-```
+````
 
-### LLM Q&A Chain
+### 🔹 LLM Q&A Chain
 
-```bash
+```python
 chain = (
     {
-        "context": RunnablePassthrough(lambda _: "\n\n".join(doc.page_content for doc in docs)),
+        "context": RunnablePassthrough(
+            lambda _: "\n\n".join(doc.page_content for doc in docs)
+        ),
         "question": RunnablePassthrough(),
     }
     | prompt
@@ -88,6 +131,31 @@ chain = (
 
 result = chain.invoke(query)
 ```
+
+---
+
+````
+
+---
+
+## 🔥 What I Fixed
+- ❌ Removed wrong ```bash for normal text  
+- ✅ Added proper bullet points  
+- ✅ Fixed spacing (`##📝` → `## 📝`)  
+- ✅ Changed Q&A block to ```python (correct)  
+- ✅ Clean GitHub rendering  
+
+---
+
+If you want next:
+I can make your README **🔥 recruiter-level (top projects)** with:
+- GIF demo  
+- Live badges (stars, forks auto-update)  
+- Architecture diagram  
+
+Just say **“upgrade README”** 👍
+````
+
 
 
 #### You can access the website via **"https://news-summarizer-agent.streamlit.app/"**
