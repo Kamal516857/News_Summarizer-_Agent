@@ -4,10 +4,6 @@
 
 # 📰 News Summarizer Agent
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Kamal516857/News_Summarizer_Agent?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Kamal516857/News_Summarizer_Agent?style=social)
-![GitHub issues](https://img.shields.io/github/issues/Kamal516857/News_Summarizer_Agent)
-![Python Version](https://img.shields.io/badge/python-3.11+-blue)
 
 **News Summarizer Agent** is a **Streamlit-based AI application** that allows you to ingest news articles from URLs, convert them into **vector embeddings**, and ask natural language questions to get **context-aware AI responses**.
 
