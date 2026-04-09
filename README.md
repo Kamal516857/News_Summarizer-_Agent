@@ -53,30 +53,7 @@ flowchart LR
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-1. Clone Repository
-git clone https://github.com/Kamal516857/News_Summarizer_Agent.git
-cd News_Summarizer_Agent
-
-2️. Install Dependencies
-pip install -r requirements.txt
-
-3️. Setup Environment Variables
-Create a `.env` file:
-
-GROQ_API_KEY=your_api_key_here
-
-4️. Run the App
-streamlit run app.py
-
-Open in browser:
-👉 [http://localhost:8501]
-
----
-
-###📝 Usage
+## 🚀 Getting Started###📝 Usage
 
 ```bash
 
