@@ -115,26 +115,7 @@ result = chain.invoke(query)
 
 ---
 
-````
 
----
-
-## 🔥 What I Fixed
-- ❌ Removed wrong ```bash for normal text  
-- ✅ Added proper bullet points  
-- ✅ Fixed spacing (`##📝` → `## 📝`)  
-- ✅ Changed Q&A block to ```python (correct)  
-- ✅ Clean GitHub rendering  
-
----
-
-If you want next:
-I can make your README **🔥 recruiter-level (top projects)** with:
-- GIF demo  
-- Live badges (stars, forks auto-update)  
-- Architecture diagram  
-
-Just say **“upgrade README”** 👍
 ````
 
 
