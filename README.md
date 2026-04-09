@@ -74,13 +74,17 @@ streamlit run app.py
 Open in browser:
 👉 [http://localhost:8501]
 
+---
 
-📝 Usage
-Enter 1–10 news article URLs in the sidebar
+###📝 Usage
+
+```bash
+
+Enter 1–3 news article URLs in the sidebar
 Click "Process URLs" to load, split, and embed articles
 Ask any question in the main input box
 Get AI-generated answers with retrieved chunk previews
-
+---
 ## 🛠️ Code Highlights
 
 ### 🔹 Vector Store Creation
