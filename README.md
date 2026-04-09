@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" alt="Image" src="" />
+  <img width="1264" height="842" alt="Image" src="https://github.com/user-attachments/assets/99552ded-4e38-44d9-ac1d-0ae89e30c5be" />
 </p>
 
 # 📰 News Summarizer Agent
