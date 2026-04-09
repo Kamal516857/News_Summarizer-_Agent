@@ -76,7 +76,7 @@ Open in browser:
 
 ---
 
-## 📝 Usage
+### 📝 Usage
 
 1. Enter **1–10 news URLs** in the sidebar
 2. Click **"Process URLs"**
