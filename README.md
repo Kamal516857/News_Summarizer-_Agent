@@ -116,8 +116,5 @@ result = chain.invoke(query)
 ---
 
 
-````
-
-
 
 #### You can access the website via **"https://news-summarizer-agent.streamlit.app/"**
