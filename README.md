@@ -77,7 +77,7 @@ Open in browser:
 ---
 
 
-
+---
 ### 📝 Usage
 
 1. Enter **1–10 news URLs** in the sidebar
@@ -86,11 +86,11 @@ Open in browser:
 4. View **AI-generated answers + retrieved context**
 
 ---
-
+---
 ## 🔧 Code Highlights
 
 ### Vector Store Creation
-
+---
 ```bash
 vectorstore = FAISS.from_documents(docs, embeddings)
 with open("faiss_store.pkl", "wb") as f:
