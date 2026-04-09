@@ -76,23 +76,22 @@ Open in browser:
 
 ---
 
+## 📝 Usage
+
+- Enter **1–10 news article URLs** in the sidebar.  
+- Click **"Process URLs"** to load, split, and embed articles.  
+- Ask any question in the main input box.  
+- Get **AI-generated answers** with retrieved chunk previews.  
 
 ---
-### 📝 Usage
 
-1. Enter **1–10 news URLs** in the sidebar
-2. Click **"Process URLs"**
-3. Ask your question in the input box
-4. View **AI-generated answers + retrieved context**
+## 🛠️ Code Highlights
 
----
----
-## 🔧 Code Highlights
+### 🔹 Vector Store Creation
 
-### Vector Store Creation
----
-```bash
+```python
 vectorstore = FAISS.from_documents(docs, embeddings)
+
 with open("faiss_store.pkl", "wb") as f:
     pickle.dump(vectorstore, f)
 ```
