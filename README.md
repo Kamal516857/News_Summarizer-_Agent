@@ -78,6 +78,8 @@ Open in browser:
 
 ## 📝 Usage
 
+```bash
+
 - Enter **1–10 news article URLs** in the sidebar.  
 - Click **"Process URLs"** to load, split, and embed articles.  
 - Ask any question in the main input box.  
