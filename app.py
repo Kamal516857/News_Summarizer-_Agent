@@ -22,7 +22,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # ------------------- UI -------------------
-st.title("NewsBot: News Research Tool 📈")
+st.title("News Summarizer Agent 📈")
 st.sidebar.title("News Article URLs")
 st.image("assets/News_reseaerch_Agent.png",width = 250)
 
